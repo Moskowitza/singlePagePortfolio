@@ -141,13 +141,13 @@ main {
   main {
     background-color: lightblue;
     height: 100%;
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
   }
   .main-section {
     background-color: lightgoldenrodyellow;
     color: slategray;
-    padding: 10px 20px 20px 20px;
-    margin: 20px 80px;
+    /* padding: 10px 20px 20px 20px; */
+    margin: 20px 30px;
     min-height: 220px;
   }
   .about-img {
@@ -162,8 +162,8 @@ main {
     shape-outside: circle();
   }
   .about-text {
-    padding: 10px 40px;
-    margin: 20px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 0px 0px;
     font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
