@@ -17,7 +17,7 @@ header {
   height: 180px;
   line-height: 80px;
   transform: skewY(5deg) rotate(-5deg);
-  box-shadow: 10px 10px;
+  box-shadow: 10px 10px 5px 0px black;
 }
 .marquee-text {
   line-height: 1;
@@ -73,7 +73,7 @@ main {
     height: 90px;
     line-height: 80px;
     transform: skewY(5deg) rotate(-5deg);
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 5px 0px black;
   }
   .marquee-text {
     line-height: 1;
@@ -129,7 +129,7 @@ main {
     height: 60px;
     line-height: 80px;
     transform: skewY(5deg) rotate(-5deg);
-    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 5px 0px black;
   }
   .marquee-text {
     line-height: 1;
@@ -170,22 +170,22 @@ main {
     vertical-align: middle;
   }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
   header {
-    height: 100px;
+    height: 70px;
     background-image: linear-gradient(-10deg, purple, blue);
     display: flex;
     justify-content: center;
   }
   .marquee {
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: -10px;
     padding: 10px 40px 5px 40px;
     background-color: yellow;
     height: 50px;
     line-height: 80px;
     transform: skewY(5deg) rotate(-5deg);
-    box-shadow: 10px 10px;
+    box-shadow: 5px 5px 3px 0px black;
   }
   .marquee-text {
     line-height: 1;
